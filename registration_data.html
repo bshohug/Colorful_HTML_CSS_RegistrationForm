@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Data</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+
+        body,
+        div,
+        h1 {
+            padding: 0;
+            margin: 0;
+            outline: none;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 16px;
+            color: #666;
+        }
+
+        h1 {
+            padding: 10px 0;
+            font-size: 32px;
+            font-weight: 400;
+            text-align: center;
+            color: #FF8C00;
+        }
+
+        .main_block {
+            max-width: 100%;
+            min-height: 50%;
+            padding: 10px 0;
+            margin: auto;
+            border-radius: 5px;
+            border: solid 1px #FF8C00;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+            background: #ebebeb;
+
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+        button {
+            width: 10%;
+            padding: 10px 0;
+            margin-left: 616px;
+            border-radius: 5px;
+            border: none;
+            background: #FF8C00;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        button:hover {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+    <div class="main_block">
+        <h1>Registration Data</h1><br><br>
+
+        <div style="margin: 10px;">
+            <table>
+                <tr>
+                    <th>SL. No</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Gender</th>
+                    <th>Reg. Type</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Mahamudul Hasan</td>
+                    <td>shohug95@gmail.com</td>
+                    <td>01767424595</td>
+                    <td>Male</td>
+                    <td>Personal</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Abu Nayeem</td>
+                    <td>nayeem403@gmail.com</td>
+                    <td>01674245956</td>
+                    <td>Male</td>
+                    <td>Personal</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>IfteArt</td>
+                    <td>ifteart@gmail.com</td>
+                    <td>01445275633</td>
+                    <td>X</td>
+                    <td>Company</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Shozib</td>
+                    <td>shozib02@gmail.com</td>
+                    <td>01854739514</td>
+                    <td>Male</td>
+                    <td>Personal</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Pixel Craft</td>
+                    <td>pixel_craft@yahoo.co.uk</td>
+                    <td>078 5260 0390</td>
+                    <td>X</td>
+                    <td>Company</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Rohan Ahmed</td>
+                    <td>rohan@outlook.com</td>
+                    <td>01836584123</td>
+                    <td>Male</td>
+                    <td>Personal</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <button onclick="goBack()">Back</button>
+
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+</body>
+
+</html>

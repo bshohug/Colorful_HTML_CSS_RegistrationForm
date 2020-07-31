@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body
+    style="background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+    <div class="main_block">
+        <h1>Registration</h1>
+
+        <form action="registration_data.html" method="POST">
+            <hr>
+            <!-- <div class="account-type">
+                <input type="radio" value="none" id="radioOne" name="account" checked>
+                <label for="radioOne" class="radio">Personal</label>
+                <input type="radio" value="none" id="radioTwo" name="account">
+                <label for="radioTwo" class="radio">Company</label>
+            </div> -->
+            <div>
+                <div style="float: right;">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    Company
+                </div>
+                <div>
+                    Personal
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+
+                </div>
+            </div>
+            <hr>
+            <label id="icon" for="username"><i class="fas fa-user"></i></label>
+            <input type="text" name="username" placeholder="Name" required>
+            <label id="icon" for="email"><i class="fas fa-envelope"></i></label>
+            <input type="email" name="email" placeholder="Email" required>
+            <label id="icon" for="tel"><i class="fas fa-phone"></i></label>
+            <input type="tel" name="tel" placeholder="Mobile" required>
+            <label id="icon" for="password"><i class="fas fa-unlock-alt"></i></label>
+            <input type="password" name="password" placeholder="Password" required>
+            <hr>
+            <div class="gender">
+                <input type="radio" value="none" id="male" name="gender" checked>
+                <label for="male" class="radio">Male</label>
+                <input type="radio" value="none" id="female" name="gender">
+                <label for="female" class="radio">Female</label>
+            </div>
+            <hr>
+            <div class="btn-block">
+                <p>By clicking Submit, you agree on our <a href="">Privacy & Policy</a>.</p>
+                <button type="submit" href="/">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
